@@ -128,7 +128,7 @@ button {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 420px;
@@ -145,6 +145,32 @@ button:hover {
   color: white;
 }
 
+#button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  background-color: #204477;
+  transition-duration: 0.5s;
+  border: 1px solid slategrey;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18.5px;
+  cursor: pointer;
+  position: relative;
+  left: 420px;
+  opacity: 80%;
+  border-radius: 10px;
+  display: inline-block;
+  zoom: 65%;
+}
+
+#button1:hover {
+  background-color: #131848;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: underline;
+  color: white;
+}
+
 #button2 {
   color: darkblue;
   background-color: slategrey;
@@ -153,7 +179,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -171,14 +197,15 @@ button:hover {
 }
 
 #button3 {
-  color: darkblue;
-  background-color: slategrey;
+  color: white;
+  background-color: #204477;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   transition-duration: 0.5s;
   border: 1px solid slategrey;
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -203,7 +230,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -228,7 +255,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
