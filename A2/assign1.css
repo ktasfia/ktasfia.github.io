@@ -102,7 +102,7 @@ p4 {
 #facebook{
 	position: relative;
 	right: 34px;
-	bottom: 46px;
+	bottom: 47px;
 	height: 78px;
 	width: 124px;
 	object-fit: contain;
@@ -111,7 +111,7 @@ p4 {
 .book{
 	float: right;
 	position: relative;
-	bottom: 102px;
+	bottom: 103px;
 	right: 145px;
 }
 
@@ -160,7 +160,7 @@ p4 {
 #quote {
 	position: absolute;
 	top: 780px;
-	left: 1220px;
+	left: 1208px;
 	height: 312px;
 	width: 550px;
 	zoom: 66.5%;
