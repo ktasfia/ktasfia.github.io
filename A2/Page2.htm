@@ -9,15 +9,15 @@
   <meta name="author" content="Tasfia Khaled">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-  
-<!-- Button code from w3schools-->
-<div class="navbar">
-  <button class="button2"><a href="index.htm">Home</a></button>
-  <button class="button2"><a href="Page2.htm">Projects</a></button>
-  <button class="button2"><a href="https://arcg.is/0HaCir">ESRI Story Map</a></button>
-  <button class="button2"><a href="https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDg4JOxjwsM">Google Tour</a></button>
-</div>
+
+  <button id = "button2" onclick="window.location.href = 'index.htm'">Home</button>
+  <button id = "button3" onclick="window.location.href = 'Page2.htm'">Projects</button>
+  <button id = "button4" onclick="window.open('https://arcg.is/0HaCir')">ESRI Story Map</button>
+  <button id = "button5" onclick="window.open('https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDg4JOxjwsM')">Google Tour</button>
+
+<h2>My Projects</h2>
 
 <!-- Image gallery code from w3schools-->	
 <div class = "main">
@@ -27,7 +27,7 @@
     <a target="_blank" href="Amazon.jpg">
       <img src="Amazon.jpg" alt="Rainforest" width="600" height="400">
     </a>
-    <div class="desc"><p4>Created through "Getting Started with ArcMAP" ESRI Tutorials on ArcMap version 10.7.1 (2019).</p4></div>
+    <div class="desc"><p class = "three">Created through "Getting Started with ArcMAP" ESRI Tutorials on ArcMap version 10.7.1 (2019).</p></div>
   </div>
 </div>
 
@@ -36,16 +36,16 @@
     <a target="_blank" href="AutoCAD.JPG">
       <img src="AutoCAD.JPG" alt="CAD Map" width="600" height="400">
     </a>
-    <div class="desc"><p4>Survey Plan of a land parcel in Lindsay created from AutoCAD Map 3D version 2020.</p4></div>
+    <div class="desc"><p class = "three">Survey Plan of a land parcel in Lindsay created from AutoCAD Map 3D version 2020.</p></div>
   </div>
 </div>
-  
+
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="Canada.jpg">
       <img src="Canada.jpg" alt="canada map" width="600" height="400">
     </a>
-    <div class="desc"><p4>Reference map of Canada created using ArcGIS Desktop version 10.7.1 (2019).</p4></div>
+    <div class="desc"><p class = "three">Reference map of Canada created using ArcGIS Desktop version 10.7.1 (2019).</p></div>
   </div>
 </div>
 
@@ -54,7 +54,7 @@
     <a target="_blank" href="Quantitative.jpg">
       <img src="Quantitative.jpg" alt="reference map" width="600" height="400">
     </a>
-    <div class="desc"><p4>Reference map of Canada with Population shown quantitatively, created using Adobe Illustrator (2019).</p4></div>
+    <div class="desc"><p class = "three">Reference map of Canada with Population shown quantitatively, created using Adobe Illustrator (2019).</p></div>
   </div>
 </div>
 
@@ -63,7 +63,7 @@
     <a target="_blank" href="Final_Project.jpg">
       <img src="Final_Project.jpg" alt="final" width="600" height="400">
     </a>
-    <div class="desc"><p4>Map showing the spread of SARS-CoV in 2002-2003, created using ArcMap version 10.7.1 and Adobe Illustrator (2019).<p4></div>
+    <div class="desc"><p class = "three">Map showing the spread of SARS-CoV in 2002-2003, created using ArcMap version 10.7.1 and Adobe Illustrator (2019).</p></div>
   </div>
 </div>
 
@@ -72,7 +72,7 @@
     <a target="_blank" href="Kawartha.jpg">
       <img src="Kawartha.jpg" alt="ai" width="600" height="400">
     </a>
-    <div class="desc"><p4>Map of Kawartha Lakes created using ArcMap version 10.7.1 (2019).</p4></div>
+    <div class="desc"><p class = "three">Map of Kawartha Lakes created using ArcMap version 10.7.1 (2019).</p></div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@
     <a target="_blank" href="Kawartha_AI.jpg">
       <img src="Kawartha_AI.jpg" alt="ai" width="600" height="400">
     </a>
-    <div class="desc"><p4>Map of Kawartha Lakes created using Adobe Illustrator (2019).</p4></div>
+    <div class="desc"><p class = "three">Map of Kawartha Lakes created using Adobe Illustrator (2019).</p></div>
   </div>
 </div>
 
@@ -90,7 +90,7 @@
     <a target="_blank" href="Enviro_Model.png">
       <img src="Enviro_Model.png" alt="ai" width="600" height="400">
     </a>
-    <div class="desc"><p4>Site Suitability Analysis for North American Beaver in Peterborough, created using MS Powerpoint and ArcMap version 10.7.1 (2020).</p4></div>
+    <div class="desc"><p class = "three">Site Suitability Analysis for North American Beaver in Peterborough, created using MS Powerpoint and ArcMap version 10.7.1 (2020).</p></div>
   </div>
 </div>
 
@@ -99,7 +99,7 @@
     <a target="_blank" href="Lindsay.jpg">
       <img src="Lindsay.jpg" alt="Lindsay" width="600" height="400">
     </a>
-    <div class="desc"><p4>Map of Lindsay created using ArcMap version 10.7.1 (2019).</p4></div>
+    <div class="desc"><p class = "three">Map of Lindsay created using ArcMap version 10.7.1 (2019).</p></div>
   </div>
 </div>
 
@@ -108,7 +108,7 @@
     <a target="_blank" href="MapBook.jpg">
       <img src="MapBook.jpg" alt="map book" width="600" height="400">
     </a>
-    <div class="desc"><p4>MapBook of Lindsay created using ArcMap version 10.7.1 (2020).</p4></div>
+    <div class="desc"><p class = "three">MapBook of Lindsay created using ArcMap version 10.7.1 (2020).</p></div>
   </div>
 </div>
 <div class="clearfix"></div>
