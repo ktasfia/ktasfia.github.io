@@ -32,6 +32,16 @@ h1{
 	font-size: 38px;
 }
 
+h2{
+	position: relative;
+	bottom: 6px;
+	color: #000066;
+	font-family: "Verdana", sans-serif;
+	text-decoration: underline;
+	font-size: 25px;
+	left: 5px;
+}
+
 p{
 	position: relative;
 	bottom: 12px;
@@ -40,30 +50,24 @@ p{
 	font-size: 19px;
 }
 
-p1{
+.one{
 	position: relative;
 	color: white;
 	font-family: "Verdana", sans-serif;
 	font-size: 17px;
 }
 
-p2{
+.two{
 	position: relative;
-	color: white;
 	font-family: "Verdana", sans-serif;
 	font-size: 18px;
 }
 
-p3{
-	position: relative;
-	color: white;
-	font-family: "Verdana", sans-serif;
-	font-size: 18px;
-}
-
-p4 {
+.three {
 	font-family: "Verdana", sans-serif;
 	font-size: 11px;
+	color: #000066;
+	top: 2px;
 }
 
 /*idea for the icons came from https://www.segall-lab.com/wp-content/uploads/2019/08/free-bootstrap-htmlsume-templates-for-personal-cv-website-websites-curriculum-vitae-template-best-sites-top.jpg*/
@@ -95,27 +99,28 @@ p4 {
 .email{
 	float: right;
 	position: relative;
-	bottom: 70px;
+	bottom: 73px;
 	left: 26px;
 }
 
 #facebook{
 	position: relative;
-	right: 34px;
-	bottom: 47px;
+	right: 38px;
+	bottom: 80px;
 	height: 78px;
-	width: 124px;
+	width: 134px;
 	object-fit: contain;
 }
 
 .book{
 	float: right;
 	position: relative;
-	bottom: 103px;
+	bottom: 145px;
 	right: 145px;
 }
 
-.button {
+button {
+  color: darkblue;
   background-color: slategrey;
   transition-duration: 0.5s;
   border: 1px solid slategrey;
@@ -132,12 +137,15 @@ p4 {
   zoom: 65%;
 }
 
-.button:hover {
+button:hover {
   background-color: #131848;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: underline;
+  color: white;
 }
 
-.button2 {
+#button2 {
+  color: darkblue;
   background-color: slategrey;
   transition-duration: 0.5s;
   border: 1px solid slategrey;
@@ -146,21 +154,100 @@ p4 {
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
+  position: relative;
+  left: 5px;
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
   zoom: 65%;
 }
 
-.button2:hover {
+#button2:hover {
   background-color: #121947;
+  color: white;
+  text-decoration: underline;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button3 {
+  color: darkblue;
+  background-color: slategrey;
+  transition-duration: 0.5s;
+  border: 1px solid slategrey;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  opacity: 80%;
+  border-radius: 10px;
+  display: inline-block;
+  zoom: 65%;
+}
+
+#button3:hover {
+  background-color: #121947;
+  color: white;
+  text-decoration: underline;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button4 {
+  color: darkblue;
+  background-color: slategrey;
+  transition-duration: 0.5s;
+  border: 1px solid slategrey;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  opacity: 80%;
+  border-radius: 10px;
+  display: inline-block;
+  zoom: 65%;
+}
+
+#button4:hover {
+  background-color: #121947;
+  color: white;
+  text-decoration: underline;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button5 {
+  color: darkblue;
+  background-color: slategrey;
+  transition-duration: 0.5s;
+  border: 1px solid slategrey;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+  opacity: 80%;
+  border-radius: 10px;
+  display: inline-block;
+  zoom: 65%;
+}
+
+#button5:hover {
+  background-color: #121947;
+  color: white;
+  text-decoration: underline;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #quote {
-	position: absolute;
-	top: 780px;
-	left: 1208px;
+	position: fixed;
+	top: 722px;
+	left: 1212px;
 	height: 312px;
 	width: 550px;
 	zoom: 66.5%;
@@ -198,7 +285,7 @@ a:hover {
 .desc {
   background-color: white;
   opacity: 70%;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   border-radius: 10px;
 }
@@ -233,6 +320,6 @@ a:hover {
 }
 
 .main {
-	top: 52px;
-	position: absolute;
+	position: relative;
+	bottom: 15px;
 }
