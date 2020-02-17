@@ -66,8 +66,9 @@ p{
 .three {
 	font-family: "Verdana", sans-serif;
 	font-size: 11px;
-	color: #000066;
-	top: 2px;
+	color: black;
+	top: 1.5px;
+	line-height: 1.5;
 }
 
 /*idea for the icons came from https://www.segall-lab.com/wp-content/uploads/2019/08/free-bootstrap-htmlsume-templates-for-personal-cv-website-websites-curriculum-vitae-template-best-sites-top.jpg*/
