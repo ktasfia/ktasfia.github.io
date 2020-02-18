@@ -4,8 +4,8 @@ html {
 }
 
 #pic {
-	width: 310px;
-	height: 450px;
+	width: 325px;
+	height: 475px;
 	border-radius: 50%;
 }
 
@@ -16,11 +16,11 @@ html {
 	float: left;
 	background-color: slategrey;
 	opacity: 0.8; 
-	height: 1260px;
-	width: 445px;
+	height: 100%px;
+	width: 455px;
 	padding: 50px;
 	border-radius: 10px;
-	zoom: 60%;
+	zoom: 67.5%;
 }
 
 h1{
@@ -85,7 +85,7 @@ p{
 	float: right;
 	position: relative;
 	top: 26px;
-	right: 101px;
+	right: 111px;
 }
 
 #mail{
@@ -101,7 +101,7 @@ p{
 	float: right;
 	position: relative;
 	bottom: 73px;
-	left: 26px;
+	left: 16px;
 }
 
 #facebook{
@@ -117,7 +117,7 @@ p{
 	float: right;
 	position: relative;
 	bottom: 145px;
-	right: 145px;
+	right: 155px;
 }
 
 button {
@@ -131,11 +131,11 @@ button {
   font-size: 18.5px;
   cursor: pointer;
   position: relative;
-  left: 420px;
+  left: 470px;
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 button:hover {
@@ -158,11 +158,11 @@ button:hover {
   font-size: 18.5px;
   cursor: pointer;
   position: relative;
-  left: 420px;
+  left: 470px;
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 #button1:hover {
@@ -188,7 +188,7 @@ button:hover {
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 #button2:hover {
@@ -215,7 +215,7 @@ button:hover {
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 #button3:hover {
@@ -241,7 +241,7 @@ button:hover {
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 #button4:hover {
@@ -267,7 +267,7 @@ button:hover {
   opacity: 80%;
   border-radius: 10px;
   display: inline-block;
-  zoom: 65%;
+  zoom: 67%;
 }
 
 #button5:hover {
@@ -280,10 +280,12 @@ button:hover {
 
 #quote {
 	position: fixed;
-	top: 722px;
-	left: 1212px;
-	height: 312px;
-	width: 550px;
+	bottom: 2%;
+	right: 14%;
+	width: 100%;
+	max-width: 550px;
+	height: auto;
+	zoom: 83%;
 }
 
 a:link {
