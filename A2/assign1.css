@@ -280,12 +280,11 @@ button:hover {
 
 #quote {
 	position: fixed;
-	bottom: 2%;
-	right: 14%;
-	width: 100%;
-	max-width: 550px;
-	height: auto;
-	zoom: 83%;
+	top: 722px;
+	left: 1212px;
+	height: 312px;
+	width: 550px;
+	zoom: 66.5%;
 }
 
 a:link {
