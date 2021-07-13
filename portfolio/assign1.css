@@ -58,8 +58,8 @@ p{
 
 .two{
 	position: relative;
-  font-family: "Verdana", sans-serif;
-  color: darkblue;
+  	font-family: "Verdana", sans-serif;
+  	color: darkblue;
 	font-size: 18px;
 }
 
@@ -181,7 +181,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18.25px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -208,7 +208,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18.25px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -234,7 +234,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18.25px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -260,7 +260,7 @@ button:hover {
   padding: 13px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18.25px;
+  font-size: 18.5px;
   cursor: pointer;
   position: relative;
   left: 5px;
