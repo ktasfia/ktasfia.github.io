@@ -190,7 +190,7 @@ li {
 }
 
 @media (max-width: 700px){
-	.svg{width:150%;
+	.svg{transform: scale(1.1);
 	overflow-x: hidden;}
 	
 	.box{padding: 15px;
@@ -210,7 +210,7 @@ li {
 	.desc{font-size: 16px;
 		margin-top: -30px;
 		padding: 20px;
-		text-align: center;}
+		text-align: justify;}
 	
 	.dp{width: 50%;
 		margin-top: 13px;
@@ -226,7 +226,7 @@ li {
         justify-content: center;}
 	
 	.icons1{display: block;
-        width: 15em;
+        width: 16em;
         height: auto;
 		margin-top: -30px;
 		margin-bottom: 30px;
