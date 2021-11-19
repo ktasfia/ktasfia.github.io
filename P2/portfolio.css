@@ -1,9 +1,9 @@
 body{margin:0; overflow-x: hidden; 
 	background-image: url(pics/background.png);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed !important;
 	background-position: center center;
-	background-size: cover}
+	background-size: cover;}
 
 .svg{width: 100%;}
 
@@ -190,7 +190,7 @@ li {
 }
 
 @media (max-width: 700px){
-	.svg{width:125%;
+	.svg{width:150%;
 	overflow-x: hidden;}
 	
 	.box{padding: 15px;
