@@ -134,10 +134,7 @@ ul{
 }
 
 @media (max-width: 700px){
-	ul{padding: 0;
-	display: flex;
-    align-items: center;
-    justify-content: center;}}
+	ul{padding: 0;}}
 
 li {
   display: inline-block;
@@ -202,25 +199,20 @@ li {
 	.heading1{display: none;
 	}
 	
-	.heading2{width: 153px;}
+	.heading2{width: 145px;}
 		
 	.desc{font-size: 16px;
 		margin-top: -30px;
 		padding: 20px;
-		text-align: justify;}
+		text-align: left;}
 	
 	.dp{width: 50%;
 		margin-top: 13px;
 		margin-bottom: 8px;
 	}
 	
-	.dpp{display: flex;
-        align-items: center;
-        justify-content: center;}
-	
-	
 	.icons1{display: block;
-        width: 17em;
+        width: 16em;
         height: auto;
 		margin-top: -30px;
 		margin-bottom: 30px;
@@ -229,7 +221,7 @@ li {
 	.icons2{display: none;}
 	
 	.mail, .phone{
-		width: 3rem;}
+		width: 2.8rem;}
 }
 
 .projects {
