@@ -190,9 +190,6 @@ li {
 }
 
 @media (max-width: 700px){
-	.svg{transform: scale(1.1);
-	overflow-x: hidden;}
-	
 	.box{padding: 15px;
 		display: grid;
     	grid-template-columns: 1fr;
@@ -221,12 +218,9 @@ li {
         align-items: center;
         justify-content: center;}
 	
-	.software{display: flex;
-        align-items: center;
-        justify-content: center;}
 	
 	.icons1{display: block;
-        width: 16em;
+        width: 17em;
         height: auto;
 		margin-top: -30px;
 		margin-bottom: 30px;
@@ -235,7 +229,7 @@ li {
 	.icons2{display: none;}
 	
 	.mail, .phone{
-		width: 2.5rem;}
+		width: 3rem;}
 }
 
 .projects {
