@@ -134,7 +134,10 @@ ul{
 }
 
 @media (max-width: 700px){
-	ul{padding: 0;}}
+	ul{padding: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;}}
 
 li {
   display: inline-block;
@@ -199,7 +202,7 @@ li {
 	.heading1{display: none;
 	}
 	
-	.heading2{width: 145px;}
+	.heading2{width: 160px;}
 		
 	.desc{font-size: 16px;
 		margin-top: -30px;
@@ -210,6 +213,10 @@ li {
 		margin-top: 13px;
 		margin-bottom: 8px;
 	}
+
+	.dpp{display: flex;
+	    align-items: center;
+	    justify-content: center;}
 	
 	.icons1{display: block;
         width: 16em;
