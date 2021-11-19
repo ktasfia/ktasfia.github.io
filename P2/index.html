@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tasfia's Webpage</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="My Personal Webpage">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Tasfia Khaled">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>	
+
+<header>
+	<nav id = "navbar">
+		<a href="#home" class="navItem"></a>
+		<div class="navMenu">
+     	<a href="#home" class="homeNavItem navItem"><strong>Home</strong></a>
+			<a href="#about" class="aboutNavItem navItem"><strong>About</strong></a>
+      <a href="#projects" class="projectsNavItem navItem"><strong>Projects</strong></a>
+    </div>
+	</nav>
+</header>
+
+<body>
+	<section class = "home" id = "home">
+    	<img src = "icons/home.svg" class = "svg" alt ="">
+	</section>
+	
+	<section class="about" id="about">
+	  <div class = "box">
+        <div id ="image">
+			<div class = dpp><img src = "pics/rattlesnake2.jpg" class = "dp" alt =""></div>
+        <ul>
+          <li><a href="mailto:ktasfia@yahoo.ca"><img src = "icons/mail.png" class="mail" alt=""></a></li>
+          <li><a href="sms:1-647-487-1474"><img src = "icons/phone.png" class="phone" alt=""></a></li>
+        </ul>
+      </div>
+      <div id = "txt">
+        <p class ="desc"><span class = "heading1">About</span><br>Hello and welcome to my online portfolio! Here you will find a compilation of my work in several software applications, including Esri's suite of ArcGIS products, Adobe Illustrator and AutoCAD. These are mostly projects I've completed during my GIS Cartographic Specialist program at Fleming College, and some during my undergrad at UofT. I hope my growth and improvement over time is evident in the work I’m proud to share. Feel free to take a look around and if there are any questions, comments or feedback, please don't hesitate to reach out through the links I have provided. I appreciate any and all given feedback.<br><br><span class = "heading2">Software/Skills</span></p>
+        <img src = "icons/icons.png" class = "icons" alt =""><div class = "software"><img src = "icons/icons1.png" class = "icons1" alt =""></div><img src = "icons/icons2.png" class = "icons2" alt ="">
+      </div>
+	  </div>
+	</section>
+	
+  <section class="projects" id="projects">
+    <!--------------------------------------- Tab links ------------------------------------------->
+    <div class="tab">
+        <button class="tablinks" onclick="year(event, 'year1')">2018</button>
+        <button class="tablinks" onclick="year(event, 'year2')" id="defaultOpen">2019</button>
+        <button class="tablinks" onclick="year(event, 'year3')">2020</button>
+        <button class="tablinks" onclick="year(event, 'year4')">2021</button>
+    </div>
+      
+    <!----------------------------------------- TAB 1 --------------------------------------------->
+    <div id="year1" class="tabcontent">
+      <div class="container">
+
+        <div class="gallery-container w-1">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A1.jpg" alt="Map of the GTA at progressing scales, created on ArcMap version 10.2.2">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A2.jpg" alt="Choropleth map of world population densities at different projections, created on ArcMap version 10.2.2">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A3.jpg" alt="Mean annual temperatures & population density of Canada's ecoregions, created on ArcMap version 10.2.2">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A4.jpg" alt="Choropleth map showing optimal places for buying a house in Toronto in relation to various different factors, created using ArcMap version 10.6">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A5.jpg" alt="Satellite image analysis of High Park Toronto, created using ArcMap version 10.6">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A6.jpg" alt="Map of UofT St. George created on ArcMap version 10.6">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/A7.jpg" alt="Map of Toronto high schools in relation to alcohol-serving establishments, created using ArcMap version 10.6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------- TAB 2 --------------------------------------------->
+    <div id="year2" class="tabcontent">
+      <div class="container">
+        
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Amazon.jpg" alt="Created through 'Getting Started with ArcMAP' ESRI Tutorials on ArcMap version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Canada.jpg" alt="Reference map of Canada created using ArcMap version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Lindsay.jpg" alt="Map of Lindsay created using ArcMap version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/AutoCAD.JPG" alt="Survey plan of a land parcel in Lindsay created from AutoCAD Map 3D version 2020">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Kawartha.jpg" alt="Map of Kawartha Lakes created using ArcMap version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Kawartha_AI.jpg" alt="Map of Kawartha Lakes created using Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Final_Project.jpg" alt="Choropleth map showing the spread of SARS-CoV in 2002-2003, created using ArcMap, Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+  <!------------------------------------- TAB 3 ----------------------------------->
+    <div id="year3" class="tabcontent">
+      <div class="container">
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/MapBook.jpg" alt="MapBook of Lindsay created using ArcMap version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/bucketlist.jpg" alt="Radial flow map showing my top 10 bucketlist cities, created using Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-5">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/SpecialProject.png" alt="Brochure & rental guide for popular cottage resorts in Kawartha Lakes area, created using ArcGIS Pro, Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Enviro_Model.jpg" alt="Site suitability analysis for North American beaver in Peterborough, created using ArcGIS Desktop version 10.7.1">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/landuse.jpg" alt="Urban planning future landuse suitability study of Kawartha Lakes in relation to public transportion, created using ArcGIS Pro">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/Milestone.jpg" alt="Businesses open before & after COVID-19 lockdown in Toronto, created using ArcMap, Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-------------------------------------- TAB 4 ----------------------------------->
+    <div id="year4" class="tabcontent">
+      <div class="container">
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/infograph.png" alt="Infographic on global suicide rates in relation to access to mental health services, created using Adobe Illustrator & Avenza MAPublisher">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/WolfLake.png" alt="Topographic map of Wolf Lake Temagami, created using ArcMap, Adobe Illustrator, Adobe Photoshop & Avenza Geographic Imager">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-4">
+          <div class="gallery-item">
+            <div class="image">
+              <img class="myImages" src="pics/elevation.png" alt="Topographic map of Lady Evelyn Smoothwater Provincial Park in Temagami, created using ArcMap, Adobe Illustrator, Adobe Photoshop & Avenza Geographic Imager">
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-1">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="https://jessicahobbins.github.io/P2116/index.html" target="_blank"><img src="pics/collab.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!---------- The Modal --------->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>   
+  </section>
+
+  <script src = "js/nav.js"></script>
+  <script src = "js/tabs.js"></script>
+  <script src = "js/modal.js"></script>
+</body>
+</html>    
