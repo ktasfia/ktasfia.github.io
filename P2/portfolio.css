@@ -203,7 +203,8 @@ li {
 	.svg{display: none;}
 	.svg2{display: inline-block;
 		width: 105%;
-		overflow-x: hidden;}
+		overflow-x: hidden;
+		margin-top: 20px;}
 	
 	.box{padding: 15px;
 		display: grid;
