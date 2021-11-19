@@ -211,7 +211,7 @@ li {
 	.heading1{display: none;
 	}
 	
-	.heading2{width: 160px;}
+	.heading2{width: 180px;}
 		
 	.desc{font-size: 16px;
 		margin-top: -30px;
@@ -409,7 +409,7 @@ li {
 	}
 	.projects{
 		padding: 35px;
-		padding-top: 53px;
+		padding-top: 58px;
 	}
 }
 
