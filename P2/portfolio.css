@@ -1,9 +1,14 @@
-body{margin:0; overflow-x: hidden; 
+body{margin:0; overflow-x: hidden;}
+
+.fixed-img{
 	background-image: url(pics/background.png);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed !important;
-	background-position: center center;
-	background-size: cover;}
+	background-size: cover;
+	z-index: -1;}
 
 .svg{width: 100%;}
 
@@ -143,6 +148,8 @@ li {
   display: inline-block;
 }
 
+.phone{margin-left: 8px;}
+
 .mail,.phone{
 	width: 2.8rem;
 	opacity: 76%;
@@ -207,7 +214,7 @@ li {
 	.desc{font-size: 16px;
 		margin-top: -30px;
 		padding: 20px;
-		text-align: left;}
+		text-align: center;}
 	
 	.dp{width: 50%;
 		margin-top: 13px;
@@ -215,6 +222,10 @@ li {
 	}
 
 	.dpp{display: flex;
+	    align-items: center;
+	    justify-content: center;}
+
+	.software{display: flex;
 	    align-items: center;
 	    justify-content: center;}
 	
