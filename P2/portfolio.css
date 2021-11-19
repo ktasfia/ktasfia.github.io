@@ -5,6 +5,7 @@ body{margin:0; overflow-x: hidden;
 	background-position: center center;
 	background-size: cover;}
 
+.svg{width: 100%;}
 
 nav{
   box-shadow: 0px 4px 7px #707484;
@@ -202,11 +203,11 @@ li {
 	}
 		
 	.desc{font-size: 16px;
-		margin-top: -35px;
-		padding: 25px;
+		margin-top: -32px;
+		padding: 23px;
 		text-align:center;}
 	
-	.dp{width: 40%;
+	.dp{width: 50%;
 		margin-top: 13px;
 		margin-bottom: 8px;
 	}
@@ -413,7 +414,6 @@ li {
 .w-4{
     grid-column: span 4;
 }
-
 .w-5{
     grid-column: span 5;
 }
