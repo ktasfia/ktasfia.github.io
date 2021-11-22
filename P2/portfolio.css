@@ -39,7 +39,7 @@ nav{
 
 .navItem:hover{color: #1B1464; font-weight: bolder;}
 
-.navItem.active{color: #1B1464; font-weight: bolder;}
+.active{color: #1B1464; font-weight: bolder;}
 
 .navMenu{
   flex-basis: 100%;
@@ -129,6 +129,8 @@ section:focus {
 	overflow: hidden;
 	display: inline-block;
 }
+
+.desc2{display: none;}
 
 .dp{
 	width: 123%;
@@ -222,15 +224,20 @@ li {
 	    grid-column:span 1;
 		}
 	
-	.heading1{display: none;
-	}
+	
 	
 	.heading2{width: 180px;}
+
+	.desc{display: none;}
 		
-	.desc{font-size: 16px;
-		margin-top: -30px;
+	.desc2{display: inline-block;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		line-height: 22.5px;
+		color: slategray;
+		text-align: center;
+		margin-top: 0px;
 		padding: 20px;
-		text-align: center;}
+	}
 	
 	.dp{width: 50%;
 		margin-top: 13px;
@@ -406,7 +413,7 @@ li {
 	text-decoration: none;
 	cursor: pointer;
   }
-
+  
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 950px){
 	.home{min-height: 70vh;
