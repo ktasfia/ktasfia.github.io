@@ -197,6 +197,8 @@ li {
 	display: inline-block;
 }
 
+h1{display: none;}
+
 @media (max-width: 950px){
 	.icons{display: none;}
 		
@@ -223,9 +225,20 @@ li {
 		"txt";
 	    grid-column:span 1;
 		}
+
+	@import url(//db.onlinewebfonts.com/c/1cfac2832ad49f16a3ea6b5c2287af2f?family=Mistral);
+	h1{display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Mistral";
+		margin-top: -45px;
+		margin-bottom: 0px;
+		font-size: 38px;
+		font-weight: 500;
+		color: slategray;}
 	
-	.heading1{width: 113px;}
-	.heading2{width: 180px;}
+	.heading1{width: 113px;}	
+	.heading2{width: 183px;}
 
 	.desc{display: none;}
 		
