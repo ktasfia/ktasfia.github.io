@@ -406,6 +406,16 @@ li {
 	text-decoration: none;
 	cursor: pointer;
   }
+
+  @media only screen and (max-width: 950px){
+	.home{min-height: 70vh;
+	}
+	.projects{
+		padding: 10px;
+		padding-top: 35px;
+		margin-top: 35px;
+	}
+}
   
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
@@ -414,18 +424,8 @@ li {
 	}
 	.projects{
 	  padding: 5px;
-	  margin-top: 35px;
-	  }
+	}
   }
-
-  @media only screen and (max-width: 950px){
-	.home{min-height: 70vh;
-	}
-	.projects{
-		padding: 20px;
-		padding-top: 35px;
-	}
-}
 
 .w-1{
     grid-column: span 1;
