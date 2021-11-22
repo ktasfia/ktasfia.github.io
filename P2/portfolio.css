@@ -37,7 +37,9 @@ nav{
 	font-weight: bolder;
 }
 
-.navItem:hover{color: #345590; font-weight: bolder;}
+.navItem:hover{color: #1B1464; font-weight: bolder;}
+
+.navItem.active{color: #1B1464; font-weight: bolder;}
 
 .navMenu{
   flex-basis: 100%;
@@ -50,14 +52,6 @@ nav{
   padding: 10px;
   margin: 0 0 0 10px;
   cursor: pointer;
-}
-
-.navMenu span:hover{
-  background-color: #9FA4BC;
-}
-
-.active{
- color: #1B1464; font-weight: bolder;
 }
 
 nav.scroll{
@@ -419,7 +413,7 @@ li {
 	  width: 100%;
 	}
 	.projects{
-	  padding: 10px;
+	  padding: 5px;
 	  margin-top: 30px;
 	  }
   }
@@ -428,7 +422,7 @@ li {
 	.home{min-height: 70vh;
 	}
 	.projects{
-		padding: 35px;
+		padding: 20px;
 		padding-top: 55px;
 	}
 }
@@ -450,10 +444,6 @@ li {
 }
 
 @media screen and (max-width:500px){
-	.projects{
-	  padding: 6px;
-	  padding-top: 20px;
-	  }
 	.tab button{
 		font-size: 17px;
 		padding: 12px;
