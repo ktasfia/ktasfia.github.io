@@ -224,8 +224,7 @@ li {
 	    grid-column:span 1;
 		}
 	
-	
-	
+	.heading1{width: 140px;
 	.heading2{width: 180px;}
 
 	.desc{display: none;}
@@ -255,7 +254,7 @@ li {
 	.icons1{display: block;
         width: 16em;
 		margin-left: 8px;
-		margin-top: -28px;
+		margin-top: -26px;
 		margin-bottom: 28px;
 		padding: 0;}
 	
