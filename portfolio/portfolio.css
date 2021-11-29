@@ -450,7 +450,7 @@ li {
 	margin-left: 0; margin-right: 0;
     }
 
-	.tabcontent{padding: 5px 0px;}
+	.tabcontent{padding: 0;}
     }
     .w-1,.w-2,.w-3,.w-4,.w-5{
         grid-column:span 1;
