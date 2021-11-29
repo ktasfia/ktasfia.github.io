@@ -452,6 +452,8 @@ li {
         grid-template-columns: repeat(1,1fr);
 	margin: 0;
     }
+	
+	.tabcontent{padding:0;}
     
     .w-1,.w-2,.w-3,.w-4,.w-5{
         grid-column:span 1;
