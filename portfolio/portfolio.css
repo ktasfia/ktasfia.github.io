@@ -453,6 +453,7 @@ li {
     .w-1,.w-2,.w-3,.w-4,.w-5{
         grid-column:span 1;
     }
+	.projects{padding: 0px;}
 }
 
 @keyframes move-down{
