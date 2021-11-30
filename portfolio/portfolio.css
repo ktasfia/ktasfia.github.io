@@ -98,7 +98,6 @@ section:focus {
 	display: inline-block;
 	line-height: 19px;
 	font-size: 19.5px;
-	width: 100px;
 	font-weight:bold;
 }
 
@@ -107,7 +106,6 @@ section:focus {
 	display: inline-block;
 	line-height: 19px;
 	font-size: 19.5px;
-	width: 150px;
 	font-weight: bold;
 }
 
@@ -217,9 +215,6 @@ li {
 		"txt";
 	    grid-column:span 1;
 		}
-	
-	.heading1{width: 113px;}	
-	.heading2{width: 183px;}
 
 	.desc{display: none;}
 		
