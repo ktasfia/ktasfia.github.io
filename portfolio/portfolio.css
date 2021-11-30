@@ -98,7 +98,7 @@ section:focus {
 	display: inline-block;
 	line-height: 19px;
 	font-size: 19.5px;
-	font-weight:bold;
+	font-weight: 600;
 }
 
 .heading2{
@@ -106,7 +106,7 @@ section:focus {
 	display: inline-block;
 	line-height: 19px;
 	font-size: 19.5px;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .desc{
